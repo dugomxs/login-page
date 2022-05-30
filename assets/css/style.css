@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+}
+
+:root {
+  --red:hsla(357, 80%, 59%, 1);
+  --border:hsla(0, 0%, 0%, 0.25);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+
+main {
+  margin-left: 109.03px;
+}
+
+section {
+  box-sizing: border-box;
+}
+
+.text {
+  margin-top: 104px;
+}
+
+.text h2 {
+ margin-left: 121px;
+font-size: 34px;
+letter-spacing: 0.03em;
+}
+
+.text p {
+  margin-left: 109.03px;
+  margin-bottom: 37.18px;
+}
+
+.forms {
+  margin-left: 109.03px;
+}
+
+.paragraph{
+  margin-bottom: 6.2px;
+
+}
+
+#email{
+  width: 313.97px;
+  height: 41.31px;
+  border: 1px solid var(--border);
+  outline: none;
+  padding:0 1% ;
+  border-radius: 12px;
+  margin-bottom: 21.69px;
+}
+
+#email:valid {
+  border: 1px solid rgb(75, 105, 75);
+}
+
+#password{
+  width: 313.97px;
+  height: 41.31px;
+  border: 1px solid var(--border);
+  outline: none;
+  padding:0 1% ;
+  border-radius: 12px;
+  margin-bottom: 21.69px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-left: 13px;
+  font-size: 13.5px;
+  font-weight: 500;
+  margin-bottom: 11.36px;
+}
+
+.checkbox a {
+  text-decoration: none;
+  color: var(--red);
+  cursor: pointer;
+}
+
+#checkbox {
+  margin-right: 6.2px;
+}
+
+.remenber{
+  margin-right: 79.52px;
+}
+
+.btns {
+  margin-left: 109.03px;
+}
+
+.btn-signin {
+  background-color: var(--red);
+  width: 341.97px;
+  height: 46.31px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 11.36px;
+  cursor: pointer;
+}
+
+.btn-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  width: 341.97px;
+  height: 41.31px;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  margin-bottom: 15.72px;
+}
+
+.btn-google img {
+  margin-right: 6.2px;
+}
+
+.signup {
+  font-weight: 500;
+  font-size: 10px;
+  margin-left: 158px;
+  letter-spacing: 0.03em;
+}
+
+.signup a {
+ text-decoration: none;
+ color: var(--red);
+}
+
+.man {
+height: 700px;
+width: 540px;
+margin-left: 720px;
+margin-top: -580px;
+}
+@media screen and (max-width: 720px) {
+  section {
+    position: absolute;
+    margin-left: -138px;
+  }
+
+  #email {
+    width: 333px;
+  }
+
+  #password {
+    width: 333px;
+  }
+}
+
